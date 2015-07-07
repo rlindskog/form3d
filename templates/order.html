@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--your icon named 'icon.ico'-->
+    <link rel="icon" href="../img/creative.ico">
+
+    <title>Form3d</title>
+
+    <!-- ihover CSS-->
+    <link href="../css/ihover.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../css/form3d.css" rel="stylesheet">
+    <!-- CSS Icons -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home.html" title="Home">
+                <img style="max-width:100px; margin-top: 0px;"
+                     src="../img/Form3D_Logo.png"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-left">
+            <ul class="nav navbar-nav">
+                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="#">Order</a></li>
+                <li><a href="photos.html">Images</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="container" align="center">
+    <br/>
+    <h2>Price</h2>
+    <br/>
+</div>
+<div class="container">
+
+    <div class="container">
+        <table class="table">
+            <tr>
+                <th>Type</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Custom Design</td>
+                <td>$20 per hour and a flat rate of $.65 per cm3</td>
+            </tr>
+            <tr>
+                <td>Existing STL File</td>
+                <td>$1.00 per cm3 for the first 5cm3 and $0.65 for every additional cm3</td>
+            </tr>
+        </table>
+    </div>
+    <br/><br/>
+    <h2 align="center">Order</h2>
+    <br/>
+
+<form class="form-horizontal" action="MAILTO:form3d@gmail.com" method="post" enctype="text/plain">
+
+    <div class="form-group">
+        <label for="inputName" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputName" placeholder="Name">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputType" class="col-sm-2 control-label">Type</label>
+        <div class="col-sm-10">
+            <input type="radio" name="type" id="inputType" value="Existing STL File"> Existing STL File
+            <br/>
+            <input type="radio" name="type" id="inputType" value="Custom Design"> Custom Design
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputSize" class="col-sm-2 control-label">Size</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputSize" placeholder="cm³">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputDescription" class="col-sm-2 control-label">Description</label>
+        <div class="col-sm-10">
+            <textarea type="text" class="form-control" name="description" placeholder="Add any specifications for your inquiry." rows="5" id="inputDescription"></textarea>
+        </div>
+    </div>
+
+    <div align="center">
+        <button type="submit" class="btn btn-default" value="Send">Send</button>
+        <button type="reset" class="btn btn-default" value="Reset">Reset</button>
+    </div>
+
+</form>
+
+</div><!-- /.container -->
+
+<div class="container" align="center">
+
+    <div class="row">
+        <br/><br/><br/>
+        <a href="https://www.facebook.com/Form3Dprinting" target="_blank">
+            <i class="fa fa-facebook-square fa-4x" style="color:#3b5998"></i>
+        </a>
+        <a href="http://www.reddit.com/" target="_blank">
+            <i class="fa fa-reddit-square fa-4x" style="color:#900020"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+            <i class="fa fa-twitter-square fa-4x" style="color:#4099FF"></i>
+        </a>
+        <a href='https://plus.google.com/' target="_blank">
+            <i class="fa fa-google-plus-square fa-4x" style="color:#d34836"></i>
+        </a>
+    </div>
+
+    <br/>
+
+    <div class="masfoot" align="center">
+        <div class="inner">
+            <p>Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2015 <a  class="copylink" href="http://www.form3d.net/">form3d</a></p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../js/ie10-viewport-bug-workaround.js"></script>
+<script src="../js/form3d.js"></script>
+</body>
+</html>
